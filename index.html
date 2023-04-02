@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styele.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js" type="module"></script>
+  </head>
+  <body>
+  <div class="container d-flex ">
+      <div class="row justify-content-start">
+        <div class="col-12 col-sm-6">
+          <p class="text-center fs-2 text-light">The Movie Database Api</p>
+          <div class="btns">
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">Action</button>
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">Family</button>
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">History</button>
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">Western</button>
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">War</button>
+            <button class="btn btn-info my-2 mx-2 text-light" type="submit">Documentary</button>
+          </div>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputFilm">
+            </div>
+            <button class="btn btn-info btn-block" id="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <div class="movies">
+        </div>
+        <div class="col-12 col-sm-6 d-flex justify-content-start">
+          <div class="box-container">
+            <div id="data1" class="box"></div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
